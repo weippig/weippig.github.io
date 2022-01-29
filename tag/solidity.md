@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: AWS"
-tag: AWS
+title: "Tag: solidity"
+tag: solidity
 robots: noindex
 ---

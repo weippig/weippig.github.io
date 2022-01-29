@@ -6,9 +6,7 @@ author: weippig
 tags: solidity
 ---
 
-# Solidity
-
-## 有用的web
+## Useful example
 * [solidity by example](https://solidity-by-example.org/)
 * [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts)
 
@@ -160,11 +158,6 @@ function (<parameter types>) {internal|external} [pure|constant|view|payable] [r
     * `{gas: ...}` and` {value: ...}` to specify the amount of gas or the amount of wei sent to a function, respectively.
 
 
-## Special global variable
-* msg
-
-## Events
-* 是inheritable members
 
 ## Visibility and Getters
 ### external
@@ -228,17 +221,13 @@ Functions can be declared pure in which case they promise not to read from or mo
 
 
 
-## 數字比對、字串比對
-* 字串比較：
-`keccak256(abi.encodePacked(s1)) == keccak256(abi.encodePacked(s2))`
-
-
 ## Error handling: Assert, Require, Revert and Exceptions
 [ 參考網址 ](https://medium.com/blockchannel/the-use-of-revert-assert-and-require-in-solidity-and-the-new-revert-opcode-in-the-evm-1a3a7990e06e)
 * The `assert` function creates an error of type `Panic(uint256)`.
 * The `require` function either creates an error without any data or an error of type `Error(string)`.
 * The `revert` statement takes a custom error as direct argument without parentheses:
     `revert CustomError(arg1, arg2);`
+
 ### try/catch
 ``` solidity
 // SPDX-License-Identifier: GPL-3.0
