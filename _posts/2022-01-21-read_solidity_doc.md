@@ -9,6 +9,7 @@ tags: solidity
 ## Useful example
 * [solidity by example](https://solidity-by-example.org/)
 * [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts)
+* [not-so-smart-contracts](https://github.com/crytic/not-so-smart-contracts)
 
 ## Style Guide 值得注意的地方
 [ 參考網址 ](https://docs.soliditylang.org/en/v0.8.10/style-guide.html)
