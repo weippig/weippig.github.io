@@ -58,6 +58,8 @@ Variables whose values are permanently stored in contract storage.
     *  `memory`
     *  `storage`
     *  `calldata`
+&nbsp;
+
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.5.0 <0.9.0;
