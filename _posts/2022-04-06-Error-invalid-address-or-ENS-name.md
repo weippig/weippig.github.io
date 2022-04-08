@@ -1,10 +1,6 @@
 ---
 layout: post
-<<<<<<< HEAD
-title: 解決 Error: invalid address or ENS name 問題
-=======
-title: Error: invalid address or ENS name
->>>>>>> origin/main
+title: 解決 invalid address or ENS name 問題
 date:   2022-04-06
 author: weippig
 tags: ether.js smart-contract blockchain hardhat
