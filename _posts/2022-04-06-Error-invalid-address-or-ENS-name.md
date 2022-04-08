@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 解決test時候Error: invalid address or ENS name 問題
+title: Error: invalid address or ENS name
 date:   2022-04-06
 author: weippig
 tags: ether.js smart-contract blockchain hardhat
