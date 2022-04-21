@@ -305,6 +305,7 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   margin-bottom: 4em;
 }
 

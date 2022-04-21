@@ -17,4 +17,4 @@ Cloudflare會預設啟用代理功能(顯示Proxied的橘色雲朵狀態)，因�
 將和github page有關的DNS設定改為灰色雲朵DNS only，回到github page頁面，重新設定一次custom domain。
 
 
-![資料來源](https://iqiqiya.com/posts/b1adab59.html)
+[資料來源](https://iqiqiya.com/posts/b1adab59.html)
