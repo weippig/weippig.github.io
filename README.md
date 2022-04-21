@@ -3,7 +3,7 @@
 ``` shell
 bundle install
 ```
-2. run 
+2. run jekyll server(default: localhost:4000)
 ``` shell
 bundle exec jekyll serve
 ```
