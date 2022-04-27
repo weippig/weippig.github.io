@@ -1,6 +1,6 @@
 ---
 layout: post
-title: eslint error: mocha 'describe' is not define 
+title: eslint error-- mocha "describe" is not define 
 date:   2022-04-27
 author: weippig
 tags: mocha eslint
@@ -14,7 +14,7 @@ tags: mocha eslint
 ``` json
 "env": {
 	"mocha": true
-},
+}
 ``` 
 
 [資料來源](https://jeremysu0131.github.io/ESLint-Mocha-describe-is-not-defined/)
