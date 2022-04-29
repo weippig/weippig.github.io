@@ -7,7 +7,7 @@ tags: mocha eslint
 ---
 
 撰寫test檔時，發現以下eslint報的錯
-![](https://imgur.com/QNRGBNf)
+![](https://imgur.com/QNRGBNf.png)
 
 解決辦法：
 `.eslintrc`檔案中加上：
