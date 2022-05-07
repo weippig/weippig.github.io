@@ -313,6 +313,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
+/*  color: #e1ebca;*/
   color: #303030;
 }
 .page-title,
@@ -328,13 +329,32 @@ a.sidebar-nav-item:focus {
   color: #9a9a9a;
 }
 
+.archive code,
+.post-tag code{
+  color: #9ea391;
+}
+
+.archive code:hover,
+.post-tag code:hover{
+  color: #c27c7c;
+}
+
+.archive a,
+.post-tag a{
+  text-decoration: none;
+}
+
+/*.related-posts-url small{
+  color: skyblue;
+}*/
+
 /* Related posts */
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
 }
-.related-posts {
+/*.related-posts {
   padding-left: 0;
   list-style: none;
 }
@@ -351,7 +371,9 @@ a.sidebar-nav-item:focus {
 }
 .related-posts li a:hover small {
   color: inherit;
-}
+}*/
+
+
 
 
 /*

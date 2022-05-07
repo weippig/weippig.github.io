@@ -5,19 +5,19 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
-  <span>
+  <span class="post-tag">
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
   {% endfor %}
   </span>
+  <br />
+  <br />
   {{ content }}
 </div>
 
-
-
-{% if site.related_posts.size >= 1 %}
 <div class="related">
+{% if site.related_posts.size >= 1 %}
   <h2>Related posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
@@ -31,8 +31,8 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-</div>
 {% endif %}
+</div>
 
 
 {% include archive.html %}
