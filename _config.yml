@@ -35,6 +35,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
+  - jemoji
 
 paginate: 5
 paginate_path: "/blog/page:num/"
