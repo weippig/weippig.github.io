@@ -394,7 +394,7 @@ listenEvent()
 
 5.過了一陣子，回到剛剛執行`eventListener.ts`的地方，因為呼叫store function來存入100，觸發了事件`ValueChanged`，合約監聽器會印出BigNumber { value: "100" }
 
-6.可以回到Etherscan做確認，應該會看到兩筆交易，兩筆事件:confetti_ball:
+6.可以回到Etherscan做確認，應該會看到兩筆交易，兩筆事件
     
 ![](https://imgur.com/kk9LBAu.png)
     
