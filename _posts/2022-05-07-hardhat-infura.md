@@ -10,7 +10,7 @@ tags: hardhat infura
 
 1.Retrieve the Current Block Number
 ```bash
-curl [https://mainnet.infura.io/v3/](https://mainnet.infura.io/v3/YOUR-PROJECT-ID)YOUR_PROJECT_ID \
+curl https://mainnet.infura.io/v3/YOUR_PROJECT_ID \
 -X POST \
 -H "Content-Type: application/json" \
 -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params": [],"id":1}'
@@ -21,7 +21,7 @@ curl [https://mainnet.infura.io/v3/](https://mainnet.infura.io/v3/YOUR-PROJECT-I
 2.Check the Ether Balance For a Given Contract
 
 ```bash
-curl [https://rinkeby.infura.io/v3/](https://mainnet.infura.io/v3/YOUR-PROJECT-ID)YOUR_PROJECT_ID \
+curl https://rinkeby.infura.io/v3/YOUR_PROJECT_ID \
 -X POST \
 -H "Content-Type: application/json" \
 -d '{"jsonrpc":"2.0","method":"eth_getBalance","params": ["0xBf4eD7b27F1d666546E30D74d50d173d20bca754", "latest"],"id":1}'
@@ -117,8 +117,9 @@ node send.js
     
 ___
 
-## 結合Hardhat部署合約到測試鏈上吧
+# 結合Hardhat部署合約到測試鏈上吧
 ------
+<mark style="background-color:lightyellow;">💡 使用npx hardhat指令初始化時就選擇 Create an advanced sample project that uses TypeScript 選項的話，下面將js改為ts的操作可跳過</mark>
 
 ### 前置作業
 
