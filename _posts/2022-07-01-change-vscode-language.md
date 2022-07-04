@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vscode 更改語言
+title: vscode 更改語言設定
 date:   2022-07-01
 tags: vscode 
 ---
