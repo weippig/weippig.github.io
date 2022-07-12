@@ -9,7 +9,7 @@ bundle exec jekyll serve
 ```
 3. If you add some new posts including new tags
 ``` shell
-python tag_generator.py
+python3 tag_generator.py
 ```
 
 ## useful resource

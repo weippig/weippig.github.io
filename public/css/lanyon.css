@@ -588,3 +588,7 @@ img.emoji {
     width: 1em;
     margin-bottom: 0.01em;
 }
+
+ul {
+  list-style-type: none;
+}
