@@ -46,7 +46,7 @@ collections:
 github:
   repo: "https://github.com/weippig"
 version:             1.1.0
-
+include: [".well-known"]
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
