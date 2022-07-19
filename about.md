@@ -2,12 +2,12 @@
 layout: page
 title: About
 ---
-
+<br />
 <p class="message">
-  Hello,I'm Helen Huang! A Plant Lover.
+  Hello,I'm Helen! A Plant Lover. 
 </p>
 
-Blockchain / Security / Go / Typescript / C++ / Solidity
+SSI / Blockchain / Security / Go / Typescript / C++ / Solidity
 
 
 ![](https://imgur.com/MIixTWB.png) | ![](https://imgur.com/jIimLeZ.png)
