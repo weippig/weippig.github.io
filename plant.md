@@ -1,14 +1,8 @@
 ---
 layout: page
-title: About
+title: Plant
 ---
 <br />
-<p class="message">
-  Hello,I'm Helen! A Plant Lover. 
-</p>
-
-SSI / Blockchain / Security / Go / Typescript / C++ / Solidity
-
 
 ![](https://imgur.com/MIixTWB.png) | ![](https://imgur.com/jIimLeZ.png)
 - | - 
