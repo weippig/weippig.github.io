@@ -6,7 +6,7 @@ author: weippig
 tags: postgresql port
 ---
 
-當我在使用Docker啟用postgreSQL建置資料庫時，遇到了5432這個port被佔用的問題。
+當我在使用Docker啟用postgreSQL建置資料庫時，遇到了5432這個port被佔用的問題 (Ports are not available: listen tcp 0.0.0.0:5432: bind: address already in use)
 按照官網說明使用：
 ``` console
 brew remove postgresql
