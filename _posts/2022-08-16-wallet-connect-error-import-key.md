@@ -6,4 +6,4 @@ tags:
 ---
 I encounter error like picture when click button which used to connect wallet extension in AWS ubuntu environment :
 ![](https://i.imgur.com/rMRtHi7.png)
-This error appears if open web by using http not https. Issue SSL and become https, problem solved !
+This error appears if open web by using http not https. <mark style="background-color: #ecf39e">Establish SSL connection and become https</mark>, problem solved !
