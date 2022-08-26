@@ -610,3 +610,27 @@ div.icon {
   padding: 0; 
   margin: 0;
 } */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-top {
+  bottom: 1em;
+  color: rgb(168, 210, 184);
+  opacity: 0.9;
+  position: fixed;
+  right: 1em;
+  transition: opacity 200ms ease;
+  z-index: 1;
+}
+
+.back-to-top:hover {
+  opacity: 1;
+}
+
+.at-top .back-to-top,
+.at-bottom .back-to-top {
+  opacity: 0;
+  pointer-events: none;
+}
