@@ -2,11 +2,15 @@
 layout: post
 title: Ethernaut - 2.Fallout
 date:  2022-08-24
-tags: ethernaut
+tags: ethernaut solidity
 ---
 
-### Difficulty: 🌕🌑🌑🌑🌑
-### Contract
+## Difficulty: 🌕🌑🌑🌑🌑
+> Claim ownership of the contract below to complete this level.<br /><br />
+  Things that might help 
+  - Solidity Remix IDE
+
+## Contract
 ``` solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
@@ -53,7 +57,7 @@ contract Fallout {
 }
 ```
 
-### Writeup
+## Writeup
 1. Get new instance
 2. `await contract.owner()` to check contract owner, it return address 0x0000000000000000000000000000000000000000.
 3. Use `await contract.allocatorBalance(YOUR_ADDRESS).then(v=>v.toString())` to check balance, it return zero.

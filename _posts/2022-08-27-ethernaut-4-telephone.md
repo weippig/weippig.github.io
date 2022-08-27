@@ -2,11 +2,16 @@
 layout: post
 title: Ethernaut - 4.Telephone
 date:  2022-08-27
-tags: ethernaut
+tags: ethernaut solidity
 ---
 
-### Difficulty: 🌕🌑🌑🌑🌑
-### Contract
+## Difficulty: 🌕🌑🌑🌑🌑
+
+> Claim ownership of the contract below to complete this level.<br />
+  Things that might help<br /><br />
+  See the Help page above, section "Beyond the console"
+
+## Contract
 ``` solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
@@ -27,7 +32,7 @@ contract Telephone {
 }
 ```
 
-### Writeup
+## Writeup
 To complete this level, we need to claim ownership of the contract. 
 The keypoint is the difference between` tx.origin` and `msg.sender`.
 
@@ -56,5 +61,5 @@ The keypoint is the difference between` tx.origin` and `msg.sender`.
 6. Submit instance ξ( ✿＞◡❛)
 
 
-### Reference
+## Reference
 [tx.origin vs msg.sender](https://davidkathoh.medium.com/tx-origin-vs-msg-sender-93db7f234cb9)
