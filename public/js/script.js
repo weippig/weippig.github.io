@@ -40,3 +40,4 @@ function setScrollClass() {
     body.classList.toggle('at-bottom', scrollBottom < 48);
   });
 }
+

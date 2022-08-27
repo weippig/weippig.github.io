@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ethernaut - fallout
+title: Ethernaut - 2.Fallout
 date:  2022-08-24
 tags: ethernaut
 ---

@@ -4,6 +4,7 @@
   {% include head.html %}
 
   <body class="theme-base-0b">
+  
 
     {% include sidebar.html %}
 
@@ -25,7 +26,21 @@
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-    <a class="back-to-top" href="#">Back to top</a>
+    <!-- <a class="back-to-top" href="#">Back to top</a> -->
+    <a class="back-to-top" href="#">
+      <div style=
+      "background-color: rgb(144, 174, 144);
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      border-radius: 50%;
+      " >
+        {%- include svg/arrow-top-icon.svg -%}
+      </div>
+    </a>
+
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
   </body>

@@ -634,3 +634,11 @@ html {
   opacity: 0;
   pointer-events: none;
 }
+
+/* CSS Simple Pre Code */
+pre {
+  white-space: pre;
+  word-wrap: break-word;
+  overflow: auto;
+}
+
