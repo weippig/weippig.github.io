@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ethernaut - 6. Delegation
-date:  2022-08-27
+date:  2022-08-28
 tags: ethernaut solidity
 ---
 
@@ -51,9 +51,9 @@ contract Delegation {
 
 ## Writeup
 
-1. Get new Instance .
+1. Get new Instance.
 2. Call the method 
-  ``` solidity
+  ``` javascript
 
    await contract.sendTransaction({data: web3.eth.abi.encodeFunctionSignature("pwn()")})
 
@@ -61,5 +61,5 @@ contract Delegation {
    You can find the detail about `encodeFunctionSignature()` in [there](https://web3js.readthedocs.io/en/v1.2.11/web3-eth-abi.html#encodefunctionsignature) .
 3. Submit instance ξ( ✿＞◡❛)
 
-### Learn delegatecall ( solidity version 0.8.13 )
+### Reference
 [Solidity by example - delegatecall](https://solidity-by-example.org/delegatecall/)
