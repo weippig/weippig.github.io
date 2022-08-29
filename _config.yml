@@ -48,6 +48,7 @@ github:
 leetcode: "https://leetcode.weippig.com/"
 version: 1.1.0
 include: [".well-known"]
+timezone: "Asia/Taipei"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
