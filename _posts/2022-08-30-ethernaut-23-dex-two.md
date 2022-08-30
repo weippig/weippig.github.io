@@ -4,7 +4,6 @@ title: Ethernaut - 23. Dex Two
 date:  2022-08-30
 tags: ethernaut solidity
 ---
-
 ## Difficulty: 🌕🌕🌑🌑🌑
 >As we've repeatedly seen, interaction between contracts can be a source of unexpected behavior.<br />
 Just because a contract claims to implement the ERC20 spec does not mean it's trust worthy.<br />
@@ -99,7 +98,7 @@ contract SwappableTokenTwo is ERC20 {
 
     const t1 = await contract.token1()
     const t2 = await contract.token2()
-    const myToken = '0x00FadFCC1530338317Af59DC0544C4E5447918A9'
+    const myToken = 'YOUR_MYTOKEN_CONTRACT_ADDRESS'
 
     ```
 5. Get balance
