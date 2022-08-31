@@ -8,6 +8,7 @@ tags: picoCTF
 ## [Challenge](https://play.picoctf.org/practice/challenge/322?category=5&page=3&solved=0)
 
 ## Tags
+PicoGyn Exclusive / General skills
 
 ## Description
 Unzip this archive and find the flag.<br />
