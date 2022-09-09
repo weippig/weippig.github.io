@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unresolved import `rand`
+title: Rust - Unresolved import `rand`
 date:  2022-09-07
 tags: Rust
 ---
