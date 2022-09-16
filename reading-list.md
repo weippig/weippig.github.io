@@ -12,3 +12,5 @@ title: Reading list
 - [ Ceramic Protocol Specification](https://github.com/ceramicnetwork/ceramic/blob/main/SPECIFICATION.md#ceramic-protocol-specification) <br />
 - [ requirements-to-accept-a-kyc-vc ](https://github.com/TBD54566975/credentials-working-group/blob/main/work_items/kyc-vcs/requirements-to-accept-a-kyc-vc.md) <br />
 - [正则表达式不要背](https://juejin.cn/post/6844903845227659271) <br />
+- [DelegateCall: Calling Another Contract Function in Solidity](https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c)
+- [Custom Errors in Solidity](https://blog.soliditylang.org/2021/04/21/custom-errors/)
