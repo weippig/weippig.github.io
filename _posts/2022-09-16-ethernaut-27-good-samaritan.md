@@ -118,6 +118,7 @@ interface INotifyable {
 ```
 
 ## Writeup
+The `requestDonation()` in the GoodSamaritan contract will call `wallet.donate10(msg.sender)` if there are enough coins(>10) in the wallet. If coins in the wallet less then 10, it will revert `NotEnoughBalance` error and transfer all remaining coins in the wallet.
 1. Get new instance.
 2. Create a new contract. 
     ``` solidity
@@ -143,10 +144,9 @@ interface INotifyable {
         }
     }
     ```
-3. Get `GoodSamaritan` contract address by typing `instance` in the chrome console.
+3. Get `GoodSamaritan` contract address by typing `instance` in the chrome console. For example: 
     ``` javascript
 
-    // ex. 
     instance
     // '0xa273e96Ae56e2cAb404a3221d5356Af4cdd67440'
 
