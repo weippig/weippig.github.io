@@ -8,7 +8,7 @@ tags: picoCTF
 ## [Challenge](https://play.picoctf.org/practice/challenge/303?category=1&originalEvent=70&page=1&solved=0)
 
 ## Tags
-PicoCTF 2022 / Web Exploitation
+PicoCTF 2022 / Web Exploitation / sql
 
 ## Description
 Connect to this PostgreSQL server and find the flag!

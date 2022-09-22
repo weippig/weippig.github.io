@@ -11,6 +11,7 @@ tags: picoCTF
 PicoCTF 2022 / Web Exploitation / sql
 
 ## Description
+Can you login to this website?
 
 ## Writeup
 1. Launch instance.
