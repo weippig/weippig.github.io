@@ -1,0 +1,73 @@
+---
+layout: post
+title: Golang - sort
+date:  2022-10-20
+tags: golang
+---
+
+`sort` 是 `Go` 裏面數一數二常用的package，下面介紹三種函式。
+
+### Ints 
+最基本的整數由小到大排序。
+``` go
+package main
+
+import (
+	"fmt"
+	"sort"
+)
+
+func main() {
+	s := []int{5, 2, 6, 3, 1, 4} // unsorted
+	sort.Ints(s)
+	fmt.Println(s)
+  // [1 2 3 4 5 6]
+}
+```
+
+### Strings
+最基本的字串由小到大排序。
+``` go
+package main
+
+import (
+	"fmt"
+	"sort"
+)
+
+func main() {
+	s := []string{"Go", "Bravo", "Gopher", "Alpha", "Grin", "Delta"}
+	sort.Strings(s)
+	fmt.Println(s)
+  // [Alpha Bravo Delta Go Gopher Grin]
+}
+```
+
+## Slice
+依照給訂的規則來排序，並不保證 stable ，如果想要確保 stable ，可以用另一個函式叫做 `SliceStable` 
+``` go
+import (
+	"fmt"
+	"sort"
+)
+
+func main() {
+	people := []struct {
+		Name string
+		Age  int
+	}{
+		{"Gopher", 7},
+		{"Alice", 55},
+		{"Vera", 24},
+		{"Bob", 75},
+	}
+	sort.Slice(people, func(i, j int) bool { return people[i].Name < people[j].Name })
+	fmt.Println("By name:", people)
+  // By name: [{Alice 55} {Bob 75} {Gopher 7} {Vera 24}]
+
+	sort.Slice(people, func(i, j int) bool { return people[i].Age < people[j].Age })
+	fmt.Println("By age:", people)
+  // By age: [{Gopher 7} {Vera 24} {Alice 55} {Bob 75}]
+}
+
+```

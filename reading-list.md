@@ -14,3 +14,5 @@ title: Reading list
 - [正则表达式不要背](https://juejin.cn/post/6844903845227659271) <br />
 - [DelegateCall: Calling Another Contract Function in Solidity](https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c)
 - [Custom Errors in Solidity](https://blog.soliditylang.org/2021/04/21/custom-errors/)
+- [Understanding Program Derived Addresses](https://www.brianfriel.xyz/understanding-program-derived-addresses/)
+- [Creating Tokens on Solana](https://www.brianfriel.xyz/how-to-create-a-token-on-solana/)
