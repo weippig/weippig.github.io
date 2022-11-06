@@ -3,16 +3,19 @@ layout: page
 title: Reading list
 ---
 
-- [ Building a Simple CLI with oclif](https://hackernoon.com/building-a-simple-cli-with-oclif) <br />
-- [ First impressions of Web5](https://educatedguesswork.org/posts/web5-first-impressions/) <br />
-- [ On Blockchains/Ledgers and Identity Systems](https://educatedguesswork.org/posts/blockchain-identity/) <br />
-- [ Self-Issued OpenID Provider v2](https://openid.net/specs/openid-connect-self-issued-v2-1_0.html) <br />
-- [ What is Web5?](https://developer.tbd.website/blog/what-is-web5/) <br />
-- [ Accessing Digital Product Passports with Decentralized Identifiers (DIDs)](https://medium.com/spherity/accessing-digital-product-passports-with-decentralized-identifiers-dids-175ca455cee3) <br />
-- [ Ceramic Protocol Specification](https://github.com/ceramicnetwork/ceramic/blob/main/SPECIFICATION.md#ceramic-protocol-specification) <br />
-- [ requirements-to-accept-a-kyc-vc ](https://github.com/TBD54566975/credentials-working-group/blob/main/work_items/kyc-vcs/requirements-to-accept-a-kyc-vc.md) <br />
-- [正则表达式不要背](https://juejin.cn/post/6844903845227659271) <br />
+- [ Building a Simple CLI with oclif](https://hackernoon.com/building-a-simple-cli-with-oclif) 
+- [ First impressions of Web5](https://educatedguesswork.org/posts/web5-first-impressions/) 
+- [ On Blockchains/Ledgers and Identity Systems](https://educatedguesswork.org/posts/blockchain-identity/) 
+- [ Self-Issued OpenID Provider v2](https://openid.net/specs/openid-connect-self-issued-v2-1_0.html)
+- [ What is Web5?](https://developer.tbd.website/blog/what-is-web5/) 
+- [ Accessing Digital Product Passports with Decentralized Identifiers (DIDs)](https://medium.com/spherity/accessing-digital-product-passports-with-decentralized-identifiers-dids-175ca455cee3) 
+- [ Ceramic Protocol Specification](https://github.com/ceramicnetwork/ceramic/blob/main/SPECIFICATION.md#ceramic-protocol-specification) 
+- [ requirements-to-accept-a-kyc-vc ](https://github.com/TBD54566975/credentials-working-group/blob/main/work_items/kyc-vcs/requirements-to-accept-a-kyc-vc.md) 
+- [正则表达式不要背](https://juejin.cn/post/6844903845227659271) 
 - [DelegateCall: Calling Another Contract Function in Solidity](https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c)
 - [Custom Errors in Solidity](https://blog.soliditylang.org/2021/04/21/custom-errors/)
 - [Understanding Program Derived Addresses](https://www.brianfriel.xyz/understanding-program-derived-addresses/)
 - [Creating Tokens on Solana](https://www.brianfriel.xyz/how-to-create-a-token-on-solana/)
+- [How NFTs are represented in Solana](https://lorisleiva.com/owning-digital-assets-in-solana/how-nfts-are-represented-in-solana)
+- [What Is a Dynamic NFT?](https://blog.chain.link/what-is-a-dynamic-nft/)
+- [聊聊我理解的Layer0、1、2到底是什么？](https://jason.mirror.xyz/YjvQ-FYQBVvy1JNg7-MAc6BKARTrJrpeRl_TXCaDI3g)
