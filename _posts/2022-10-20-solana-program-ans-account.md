@@ -15,6 +15,27 @@ Solana Program 與 以太坊智能合約不同之處在於：Solana Program 是 
 
 而在 stateless 的區塊鏈，Program 不需要儲存數據，就只是簡單的指令，數據需要另外儲存在帳戶內。當調用一個Program 內的函數，需要將儲存這個函數所使用到的數據的帳戶地址也傳遞進去。
 
+下列介紹一些 Solana 中的 Native Program。Native Program 類似於 Fabric 中的系統合約或是以太坊的預編譯合約，是作為 validator 的一部分運行，且可能隨著版本升級進行升級
+
+目前支持的 Native Program 有：
+
+- System Program
+    - 創建新帳號
+    - 指派 account 給它所屬的 program
+    - 轉帳
+    - program id ：11111111111111111111111111111111
+- Stake Program
+    - 管理質押者質押與存放獎勵的帳號
+- Vote Program
+    - 管理質押者投票相關資料
+- BPF Loader
+    - 部署合約到鏈上
+    - 升級鏈上合約
+    - 執行鏈上合約
+- Secp256k1 Program
+    - 幫助從簽名中還原出公鑰與地址，如同以太坊中的 ecrecover 函數
+
+等等….
 
 ## Account
 
@@ -58,3 +79,19 @@ PDA ，也就是程序派生帳戶，由一組種子與程序id 透過 `findProg
 
 <br />
 [圖片來源](https://solanacookbook.com/zh/core-concepts/pdas.html#%E7%BB%BC%E8%BF%B0)
+
+## Rent
+
+另外，值得一提的是，在 Solana 建立 accounts 存放資料是要花錢的，這個行為被稱作 Rent。
+
+使用下列指令可以查看存放 15000 bytes 的資料需要多少資金。
+
+```bash
+solana rent 15000
+```
+
+![截圖 2022-11-21 下午7.23.37.png](https://imgur.com/WTHbPYt.png)
+
+第三行有一個詞叫做 Rent-exempt，這是什麼意思呢？其實就是：如果該帳號持有超過兩年份的租金，就可以免收費。以上圖為例，建立帳號時存入 0.10529088 SOL，若想廢棄該帳號的使用，將這些錢全部轉出來，該帳號就會自動被銷毀
+
+目前，在 Solana 上建立帳號強制 Rent-exempt。
