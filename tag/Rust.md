@@ -1,12 +1,12 @@
 ---
 layout: tagpage
-title: "Tag: rust"
-tag: rust
+title: "Tag: Rust"
+tag: Rust
 robots: noindex
 ---
 ---
 layout: tagpage
-title: "Tag: Rust"
-tag: Rust
+title: "Tag: rust"
+tag: rust
 robots: noindex
 ---
