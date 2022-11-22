@@ -2,7 +2,7 @@
 layout: post
 title: unknown feature `proc_macro_span_shrink`
 date:  2022-10-06
-tags: rust
+tags:  solana blockchain
 ---
 
 I encounter below error when run command `anchor build`.

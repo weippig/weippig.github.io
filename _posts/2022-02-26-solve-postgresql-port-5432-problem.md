@@ -3,7 +3,7 @@ layout: post
 title: 解決 5432 port 被PostgreSQL 佔用問題
 date:   2022-02-26 
 author: weippig
-tags: postgresql port
+tags: sql
 ---
 
 當我在使用Docker啟用postgreSQL建置資料庫時，遇到了5432這個port被佔用的問題 (Ports are not available: listen tcp 0.0.0.0:5432: bind: address already in use)

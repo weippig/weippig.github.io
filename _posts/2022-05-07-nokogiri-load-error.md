@@ -3,7 +3,7 @@ layout: post
 title: cannot load such file -- nokogiri/nokogiri
 date:   2022-05-07
 author: weippig
-tags: bug jekyll gem
+tags: jekyll 
 ---
 
 可能添加了一些新東西到Gemfile，接著執行`bundle install`，安裝好後想執行`bundle exec jekyll serve`卻發生錯誤：

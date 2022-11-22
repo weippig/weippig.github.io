@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Golang - strings
+title: Go - strings
 date:  2022-10-20
-tags: golang
+tags: Go
 ---
 
 寫到 [leetcode 459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) 時，看了討論區發現 `strings.Repeat(s string, count int)` 這個好用的函式，所以決定開一篇文用以記錄 Golang strings 裏面值得記起來的函式或用法，方便自己複習。

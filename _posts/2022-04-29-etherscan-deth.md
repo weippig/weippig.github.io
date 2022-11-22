@@ -3,7 +3,7 @@ layout: post
 title: DethCode - 在 etherscan 使用VScode查看合約
 date:   2022-04-29
 author: weippig
-tags: etherscan smart-contract
+tags: blockchain smart-contract
 ---
 
 以Akutar Mint Pass這個合約為例

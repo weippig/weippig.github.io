@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: ceramic"
-tag: ceramic
+title: "Tag: Go"
+tag: Go
 robots: noindex
 ---

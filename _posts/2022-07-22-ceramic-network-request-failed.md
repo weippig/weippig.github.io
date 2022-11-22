@@ -2,7 +2,7 @@
 layout: post
 title: Ceramic Network request failed
 date:  2022-07-21
-tags: ceramic
+tags: blockchain
 ---
 if you encounter error like this :
 ``` 

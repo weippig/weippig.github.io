@@ -19,3 +19,5 @@ title: Reading list
 - [How NFTs are represented in Solana](https://lorisleiva.com/owning-digital-assets-in-solana/how-nfts-are-represented-in-solana)
 - [What Is a Dynamic NFT?](https://blog.chain.link/what-is-a-dynamic-nft/)
 - [聊聊我理解的Layer0、1、2到底是什么？](https://jason.mirror.xyz/YjvQ-FYQBVvy1JNg7-MAc6BKARTrJrpeRl_TXCaDI3g)
+- [为什么有HTTP协议，还要有websocket协议？](https://juejin.cn/post/7144161126652051464)
+- [The Illustrated QUIC Connection](https://quic.xargs.org/)

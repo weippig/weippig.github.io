@@ -2,7 +2,7 @@
 layout: post
 title: Change svg color
 date:   2022-07-21
-tags: 
+tags: css
 ---
 
 Open your svg file and you'll see code like below :

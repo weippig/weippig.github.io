@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Golang - Convert between string & int & rune
+title: Go - Convert between string & int & rune
 date:  2022-10-20
-tags: golang
+tags: Go
 ---
 
 ``` go

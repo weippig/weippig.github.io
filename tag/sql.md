@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: gem"
-tag: gem
+title: "Tag: sql"
+tag: sql
 robots: noindex
 ---

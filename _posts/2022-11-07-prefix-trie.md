@@ -2,7 +2,7 @@
 layout: post
 title: Prefix Trie
 date:  2022-11-07
-tags:  DS
+tags:  DSA
 ---
 
 在寫 Leetcode 的時候認識了這個資料結構：Prefix Trie 前綴樹。<br />

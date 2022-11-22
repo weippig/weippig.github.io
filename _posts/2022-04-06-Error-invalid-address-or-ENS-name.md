@@ -3,7 +3,7 @@ layout: post
 title: 解決 invalid address or ENS name 問題
 date:   2022-04-06
 author: weippig
-tags: ether.js smart-contract blockchain hardhat
+tags: ethers smart-contract blockchain hardhat
 ---
 
 test 智能合約時，透過ethers.getSigners()建立Signer並使用

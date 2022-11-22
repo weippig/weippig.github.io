@@ -3,7 +3,7 @@ layout: post
 title: 使用Hardhat與Infura部署合約
 date:   2022-05-07
 author: weippig
-tags: hardhat infura
+tags: hardhat blockchain
 ---
 
 ## 小試身手

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Golang - String, Rune, Byte
+title: Go - String, Rune, Byte
 date:  2022-10-27
 tags: golang
 ---

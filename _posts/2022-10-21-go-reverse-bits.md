@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Golang - Two ways to reverse bits
+title: Go - Two ways to reverse bits
 date:  2022-10-21
-tags: golang
+tags: Go
 ---
 When input is 32 bits unsigned integer, there are two ways to reverse bits.
 
