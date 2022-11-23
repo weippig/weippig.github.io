@@ -4,6 +4,13 @@ title: Solana Program & Account
 date:  2022-10-20
 tags: solana blockchain
 ---
+## Sealevel
+
+在官方文件中，對 Sealevel 的介紹為： **Parallel smart contracts run-time**。
+
+以太坊的 EVM 與改良後的 EOS WASM 為單執行緒，一次只能有一份合約修改狀態機。然而 Solana 的Sealevel 一次可以處理千萬份合約交易，這是因為 Sealevel 雖然與 EVM 一樣同為 VM，卻不負責執行交易，此外，Solana 使用 [BPF](https://en.wikipedia.org/wiki/Berkeley_Packet_Filter) 的技術來讓交易在 Validator 的本地硬體執行，而非虛擬機內，加速了處理的效能。
+
+此外，Solana 將合約(指令)與資料存儲分離，以下會針對這部分進行介紹。
 
 ## Program
 
@@ -95,3 +102,9 @@ solana rent 15000
 第三行有一個詞叫做 Rent-exempt，這是什麼意思呢？其實就是：如果該帳號持有超過兩年份的租金，就可以免收費。以上圖為例，建立帳號時存入 0.10529088 SOL，若想廢棄該帳號的使用，將這些錢全部轉出來，該帳號就會自動被銷毀
 
 目前，在 Solana 上建立帳號強制 Rent-exempt。
+
+### Take a deep look at Solana
+
+[Solana wiki](https://www.notion.so/Solana-Program-Account-a9a65e5d924f47a989d7335867e2e615)
+
+[Solana cookbook](https://solanacookbook.com/#contributing)
