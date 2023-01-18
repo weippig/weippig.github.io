@@ -4,7 +4,7 @@ title: Go - Return bit 1 count
 date:  2023-01-13
 tags:  Go
 ---
-
+程式碼如下：
 ``` go
 func BitCount(x int) int {
 	cnt := 0
