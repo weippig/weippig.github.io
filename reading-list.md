@@ -25,3 +25,6 @@ title: Reading list
 
 ### Tutorial
 - [使用 Golang 打造 web 應用程式](https://willh.gitbook.io/build-web-application-with-golang-zhtw/)
+
+## Git
+- [約定式提交](https://www.conventionalcommits.org/zh-hant/v1.0.0-beta.4/)
