@@ -28,3 +28,13 @@ title: Reading list
 
 ## Git
 - [約定式提交](https://www.conventionalcommits.org/zh-hant/v1.0.0-beta.4/)
+
+## Network
+- [libp2p Connectivity](https://connectivity.libp2p.io/#websocket?tab=acme-to-the-rescue)
+- [Hole punching in libp2p - Overcoming Firewalls](https://blog.ipfs.tech/2022-01-20-libp2p-hole-punching/)
+- [Building an echo application with libp2p](https://ldej.nl/post/building-an-echo-application-with-libp2p/)
+
+## 待查
+- mDNS discovery 
+- Go package - flag
+- Go context
