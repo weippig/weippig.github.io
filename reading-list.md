@@ -38,3 +38,4 @@ title: Reading list
 - mDNS discovery 
 - Go package - flag
 - Go context
+- Go WaitGroup
