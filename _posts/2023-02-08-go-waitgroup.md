@@ -4,6 +4,9 @@ title: Go - Waitgroup
 date:  2023-02-10
 tags:  Go
 ---
+- 當有很多 Goroutine 需要完成時，就可以用 Waitgroup
+- Waitgroup 做完一輪到 `wg.Wait()` 後可以被重複使用
+- 傳給其他 function 要 pass by reference
 
 ``` go 
 package main
@@ -15,7 +18,6 @@ import (
 )
 
 func main() {
-	// Note: if a WaitGroup is explicitly passed into functions, it should be done by pointer.
 	wg := &sync.WaitGroup{} // 宣告一個 Waitgroup
 
 	for i := 0; i < 10; i++ {
