@@ -26,13 +26,17 @@ title: Reading list
 ### Tutorial
 - [使用 Golang 打造 web 應用程式](https://willh.gitbook.io/build-web-application-with-golang-zhtw/)
 
-## Git
+### Linux
+- [搞懂容器技术的基石： namespace （上）](https://moelove.info/2021/12/10/%E6%90%9E%E6%87%82%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E5%9F%BA%E7%9F%B3-namespace-%E4%B8%8A/)
+
+### Git
 - [約定式提交](https://www.conventionalcommits.org/zh-hant/v1.0.0-beta.4/)
 
-## Network
+### Network
 - [libp2p Connectivity](https://connectivity.libp2p.io/#websocket?tab=acme-to-the-rescue)
 - [Hole punching in libp2p - Overcoming Firewalls](https://blog.ipfs.tech/2022-01-20-libp2p-hole-punching/)
 - [Building an echo application with libp2p](https://ldej.nl/post/building-an-echo-application-with-libp2p/)
+- [深度解密 Go 语言之 context](https://learnku.com/articles/29877#:~:text=%E4%BB%80%E4%B9%88%E6%98%AFcontext,%E3%80%81%E6%88%AA%E6%AD%A2%E6%97%B6%E9%97%B4%E3%80%81k%2Dv%20%E7%AD%89%E3%80%82)
 
 ## 待查
 - mDNS discovery 
