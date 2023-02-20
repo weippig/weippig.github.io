@@ -9,7 +9,7 @@ tags:  Go
 ``` shell
 sudo mount -t proc proc /proc
 ```
-上網查之後，發現將 `must(syscall.Mount("proc", "proc", "proc", 0, ""))` 改為以下程式碼就可了：
+上網查之後，發現將 `must(syscall.Mount("proc", "proc", "proc", 0, ""))` 改為以下程式碼，聲明這個新的 mount namespace 獨立：
 ``` go
 must(syscall.Mount("", "/", "", syscall.MS_PRIVATE|syscall.MS_REC, ""))
 defualtMountFlags := syscall.MS_NOEXEC | syscall.MS_NOSUID | syscall.MS_NODEV
