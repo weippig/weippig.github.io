@@ -2,7 +2,7 @@
 layout: post
 title: Ubuntu - 修改 hostname
 date:  2023-02-20
-tags:  Ububtu
+tags:  ubuntu
 ---
 
 1. 查看目前的 hostname

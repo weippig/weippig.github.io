@@ -38,6 +38,8 @@ title: Reading list
 - [Building an echo application with libp2p](https://ldej.nl/post/building-an-echo-application-with-libp2p/)
 - [深度解密 Go 语言之 context](https://learnku.com/articles/29877#:~:text=%E4%BB%80%E4%B9%88%E6%98%AFcontext,%E3%80%81%E6%88%AA%E6%AD%A2%E6%97%B6%E9%97%B4%E3%80%81k%2Dv%20%E7%AD%89%E3%80%82)
 
+### Something funny
+- [Geek comic](https://turnoff.us/)
 ## 待查
 - mDNS discovery 
 - Go package - flag
