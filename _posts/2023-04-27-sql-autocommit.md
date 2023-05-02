@@ -5,7 +5,7 @@ date:  2023-04-27
 tags:  sql
 ---
 
-資料庫提供數據的三種類型：
+資料庫提交數據的三種類型：
 ### 顯式提交 (Explicit Commit)
 用 `COMMIT` 命令完成提交，例如：
 ``` sql
@@ -32,3 +32,4 @@ CREATE TABLE Persons (
 
 ### Reference
 [autocommit, Commit, and Rollback](https://dev.mysql.com/doc/refman/8.0/en/implicit-commit.html)
+[MYSQL的COMMIT和ROLLBACK使用讲解](https://blog.csdn.net/qfikh/article/details/103211586)
