@@ -35,12 +35,13 @@ tags:  sql
       return itemList
     }
     ```
-4. 已覆蓋方式寫入資料(重置資料庫)
+4. 以覆蓋方式寫入資料(重置資料庫)
     ``` js
     function resetDB() {
       set(ref(db, '/group'), {});
     }
     ```
+
 
 完整程式碼：
 ``` js
@@ -65,8 +66,6 @@ const db = getDatabase(app);
 export function resetDB() {
   set(ref(db, '/group'), {});
 }
-
-// set 寫入資料
 export function write(groupid, userid, username, message) {
   push(ref(db, '/group/'+ groupid), {
     userid: userid,
