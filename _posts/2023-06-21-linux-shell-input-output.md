@@ -18,6 +18,9 @@ echo hello > hello.txt
 > 注意！hello.txt 如果已經存在，會覆蓋掉原本的檔案！
 
 不想覆蓋掉檔案，而是加在原檔案後面的話，將原本的指令的 > 改為 >> 
+
+
+
 例如：
 ``` shell
 echo hello >> hello.txt
@@ -25,6 +28,9 @@ echo hello >> hello.txt
 
 ### Pipe character
 將某指令的輸出當作另一個指定的標準輸入，可以使用 pipe character (|)
+
+
+
 例如：
 ``` shell
 cat hello.txt | wc
