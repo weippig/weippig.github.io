@@ -23,6 +23,7 @@ title: Reading list
 
 ### Linux
 - [搞懂容器技术的基石： namespace （上）](https://moelove.info/2021/12/10/%E6%90%9E%E6%87%82%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E5%9F%BA%E7%9F%B3-namespace-%E4%B8%8A/)
+- [Linux 内核文件描述符表的演变](https://zhuanlan.zhihu.com/p/34280875)
 
 ### Git
 - [約定式提交](https://www.conventionalcommits.org/zh-hant/v1.0.0-beta.4/)
@@ -42,7 +43,7 @@ title: Reading list
 - [How to Set Expiry Time (TTL) for LocalStorage With Javascript](https://www.sohamkamani.com/javascript/localstorage-with-ttl-expiry/)
 - [Building a Chat Application with React and Websockets](https://www.sohamkamani.com/reactjs/chat-application/)
 - [Executing Shell Commands in Golang](https://www.sohamkamani.com/golang/exec-shell-command/)
-
+- [browser-from-scratch](https://viethung.space/blog/tags/browser-from-scratch/)
 ## 待查
 - mDNS discovery 
 - Go package - flag
