@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Typeorm - Error: Cannot find module
+title: Typeorm Error - Cannot find module
 date:  2024-02-28
 tags:  typeorm
 ---
